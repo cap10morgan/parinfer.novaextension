@@ -41,3 +41,6 @@ in for one.)
 
 MIT. Bundles [parinfer.js](https://github.com/parinfer/parinfer.js)
 (MIT, © Shaun Lebron).
+
+The extension icon is the official [Parinfer logo](https://github.com/parinfer/parinfer-logo),
+licensed [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
