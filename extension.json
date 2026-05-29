@@ -4,7 +4,7 @@
     "organization": "Time Travel Toaster",
     "description": "Parinfer for Nova: keep parentheses and indentation in agreement while editing Lisp code (Clojure, Scheme, Fennel, …). Paren and Indent modes.",
     "version": "1.0.0",
-    "categories": ["other"],
+    "categories": ["formatters"],
     "license": "MIT",
     "repository": "https://github.com/cap10morgan/parinfer.novaextension",
     "bugs": "https://github.com/cap10morgan/parinfer.novaextension/issues",
