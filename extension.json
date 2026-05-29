@@ -30,10 +30,10 @@
             "description": "Paren Mode preserves the parens you type and fixes indentation to match. Indent Mode infers parens from your indentation (it may add or remove close parens).",
             "type": "enum",
             "values": [
-                ["paren", "Paren Mode"],
-                ["indent", "Indent Mode"]
+                ["indent", "Indent Mode"],
+                ["paren", "Paren Mode"]
             ],
-            "default": "paren"
+            "default": "indent"
         }
     ],
     "configWorkspace": [
@@ -56,8 +56,8 @@
             "type": "enum",
             "values": [
                 ["null", "Inherit from Global Settings"],
-                ["paren", "Paren Mode"],
-                ["indent", "Indent Mode"]
+                ["indent", "Indent Mode"],
+                ["paren", "Paren Mode"]
             ],
             "default": "null"
         }

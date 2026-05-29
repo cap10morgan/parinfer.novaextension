@@ -9,10 +9,10 @@ installed): `.clj`, `.cljs`, `.cljc`, `.edn`, `.bb`, `.scm`, `.lisp`, `.fnl`, �
 
 ## Modes
 
-- **Paren Mode** (default) — preserves the parens you type and adjusts
-  indentation to match. Safe and predictable; great for existing files.
-- **Indent Mode** — infers close-parens from your indentation (it may add or
-  remove parens). The classic "never touch parens" experience.
+- **Indent Mode** (default) — infers close-parens from your indentation (it may
+  add or remove parens). The classic "never touch parens" experience.
+- **Paren Mode** — preserves the parens you type and adjusts indentation to
+  match. Safe and predictable; great for existing files.
 
 > Smart Mode is intentionally not included: it needs precise change deltas that
 > Nova's editor API doesn't expose, which makes it unreliable.

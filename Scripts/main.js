@@ -37,9 +37,9 @@ function isEnabled() {
 function currentMode() {
     const ws = nova.workspace.config.get("parinfer.mode");
     if (ws === "paren" || ws === "indent") return ws;
-    return nova.config.get("parinfer.mode", "string") === "indent"
-        ? "indent"
-        : "paren";
+    return nova.config.get("parinfer.mode", "string") === "paren"
+        ? "paren"
+        : "indent";
 }
 
 // --- position helpers (offset <-> {line, character}, 0-based) ---
